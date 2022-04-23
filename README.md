@@ -1,8 +1,8 @@
-# i18next-scanner [![build status](https://travis-ci.org/i18next/i18next-scanner.svg?branch=master)](https://travis-ci.org/i18next/i18next-scanner) [![Coverage Status](https://coveralls.io/repos/i18next/i18next-scanner/badge.svg?branch=master&service=github)](https://coveralls.io/github/i18next/i18next-scanner?branch=master)
+# i18next-scanner-fix
 
-[![NPM](https://nodei.co/npm/i18next-scanner.png?downloads=true&stars=true)](https://www.npmjs.com/package/i18next-scanner)
+[![NPM](https://nodei.co/npm/i18next-scanner-fix.png?downloads=true&stars=true)](https://www.npmjs.com/package/i18next-scanner-fix)
 
-Scan your code, extract translation keys/values, and merge them into i18n resource files.
+A forked version of i18next-scanner, compatible with react-i18next v8.0.0. Scan your code, extract translation keys/values, and merge them into i18n resource files.
 
 Turns your code
 ```js
@@ -33,6 +33,10 @@ into resource files
 }
 ```
 
+## Why use this forked version instead of the original one?
+One of the key reasons that I've made this fork was to solve react-i18next v8.0.0 incompatibility with this library. Besides that i18next-scanner haven't been updated for a while now, and despite it being the main recommended extraction tool for i18n it looks kind of abandoned.
+
+I have no plans to "take control" over i18next-scanner development, but I would love to join forces with Cheton Wu to fix current reported bugs. For now I will just use this package as a temporary replacement to the original one while react-i18next v8.0.0 is not officially supported. Feel free to contribute with another features or fixes if you like.
 
 ## Notice
 There is a major breaking change since v1.0, and the API interface and options are not compatible with v0.x.
@@ -50,13 +54,13 @@ Checkout [Migration Guide](https://github.com/i18next/i18next-scanner/wiki/Migra
 ## Installation
 
 ```sh
-npm install --save-dev i18next-scanner
+npm install --save-dev i18next-scanner-fix
 ```
 
 or
 
 ```sh
-npm install -g i18next-scanner
+npm install -g i18next-scanner-fix
 ```
 
 ## Usage
