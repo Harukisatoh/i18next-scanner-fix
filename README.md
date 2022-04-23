@@ -34,7 +34,7 @@ into resource files
 ```
 
 ## Why use this forked version instead of the original one?
-One of the key reasons that I've made this fork was to solve react-i18next v8.0.0 incompatibility with this library. Besides that i18next-scanner haven't been updated for a while now, and despite it being the main recommended extraction tool for i18n it looks kind of abandoned.
+One of the key reasons that I've made this fork was to solve react-i18next v8.0.0 incompatibility with this library, for more info check: [i18next-scanner#125](https://github.com/i18next/i18next-scanner/issues/125). Besides that i18next-scanner haven't been updated for a while now, and despite it being the main recommended extraction tool for i18n it looks kind of abandoned.
 
 I have no plans to "take control" over i18next-scanner development, but I would love to join forces with Cheton Wu to fix current reported bugs. For now I will just use this package as a temporary replacement to the original one while react-i18next v8.0.0 is not officially supported. Feel free to contribute with another features or fixes if you like.
 
